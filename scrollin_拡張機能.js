@@ -81,7 +81,7 @@ function showElementAnimation() {
   }
 }
 
-//
+// run show animation
 showElementAnimation();
 window.addEventListener("scroll", showElementAnimation);
 
