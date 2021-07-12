@@ -61,9 +61,9 @@ function showElementAnimation() {
   var element = document.getElementsByClassName("js-animation2");
   if (!element) return;
 
-  var showTiming = window.innerHeight > 768 ? 320 : 40;
+  //var showTiming = window.innerHeight > 768 ? 320 : 40;
   var scrollY = window.pageYOffset;
-  var windowH = window.innerHeight;
+  //var windowH = window.innerHeight;
 
   // main
   var result = 0;
