@@ -8,15 +8,15 @@ cssembed += ".js-animation2.is-show {opacity: 1;visibility: visible;transform: t
 cssembed += "#soldout {display: block; position: fixed;bottom: 10px; left: 2%; height: 400px; width: 300px; background-Color: #f5f5f5; z-index: 999999; box-shadow: 0 10px 25px 0 rgba(60, 194, 235, 0.7)}";
 cssembed += "#topbar {height: 6%;}";
 cssembed += "button.close {margin-left: 95%; margin-top: auto; margin-bottom: auto; background-Color: #f5f5f5; border-style: none; font-size: 16px;}";
-cssembed += "#topArea {display: block; height: 40%; color: #636363;}";
-cssembed += "#discount {display: block; padding: 0px 10px; font-size: 24px; font-weight: 900; text-align: center; margin-bottom: 0px;}";
-cssembed += "#discount2 {display: block; padding: 5px 10px; font-size: 24px; font-weight: 900; text-align: center;  margin-bottom: 0px;}";
-cssembed += "#submessage {padding: 10px 20px; font-size: 16px; font-weight: 600; text-align: center;  margin-bottom: 0px;}";
-cssembed += "#subscribeArea {display: block; height: 54%;}";
-cssembed += "#frmSubscribe {display: block; padding: 0px 20px 0 20px; height: 100%}";
-cssembed += "#name {height: 30%; background-Color: #f5f5f5; border-bottom: 1px solid #808080; border-right: none; border-left: none; border-top: none; width: 100%}";
-cssembed += "#email {height: 30%; background-Color: #f5f5f5; border-bottom: 1px solid #808080; border-right: none; border-left: none; border-top: none; width: 100%}";
-cssembed += "#submit {background-Color: #000000; color: #ffffff; padding-bottom: 10px; width: 100%; height: 25%}";
+cssembed += "#topArea {display: block; height: 47%; color: #636363;}";
+cssembed += "#discount {display: block; padding: 0px 10px; font-size: 24px; font-weight: 900; text-align: center; margin-bottom: 0px;margin-block-start: 0;margin-block-end: 0;}";
+cssembed += "#discount2 {display: block; padding: 5px 10px; font-size: 24px; font-weight: 900; text-align: center;  margin-bottom: 0px;margin-block-start: 0;margin-block-end: 0;}";
+cssembed += "#submessage {padding: 10px 20px; font-size: 16px; font-weight: 600; text-align: center;  margin-bottom: 0px;margin-block-start: 0;margin-block-end: 0;}";
+cssembed += "#subscribeArea {display: block; height: 47%;}";
+cssembed += "#frmSubscribe {display: block; padding: 10px 20px 0 20px; height: 100%}";
+cssembed += "#name {height: 25%; background-Color: #f5f5f5; border-bottom: 1px solid #808080; border-right: none; border-left: none; border-top: none; width: 100%}";
+cssembed += "#email {height: 25%; background-Color: #f5f5f5; border-bottom: 1px solid #808080; border-right: none; border-left: none; border-top: none; width: 100%}";
+cssembed += "#submit {background-Color: #000000; color: #ffffff; padding-bottom: 10px; width: 100%; height: 25%; margin-top: 15px;}";
 
 style.innerHTML = cssembed;
 var heads = document.getElementsByTagName("head");
@@ -85,4 +85,4 @@ function showElementAnimation() {
 showElementAnimation();
 window.addEventListener("scroll", showElementAnimation);
 
-//window.scrollInMain = () => 1;
+window.scrollInMain = () => 1;
