@@ -9,11 +9,11 @@ cssembed += "#soldout {display: block; position: fixed;bottom: 10px; left: 2%; h
 cssembed += "#topbar {height: 6%;}";
 cssembed += "button.close {margin-left: 95%; margin-top: auto; margin-bottom: auto; background-Color: #f5f5f5; border-style: none; font-size: 16px;}";
 cssembed += "#topArea {display: block; height: 40%; color: #636363;}";
-cssembed += "#discount {display: block; padding: 0px 10px; font-size: 24px; font-weight: 900; text-align: center;}";
-cssembed += "#discount2 {display: block; padding: 5px 10px; font-size: 24px; font-weight: 900; text-align: center;}";
-cssembed += "#submessage {padding: 10px 20px; font-size: 16px; font-weight: 600; text-align: center;}";
+cssembed += "#discount {display: block; padding: 0px 10px; font-size: 24px; font-weight: 900; text-align: center; margin-bottom: 0px;}";
+cssembed += "#discount2 {display: block; padding: 5px 10px; font-size: 24px; font-weight: 900; text-align: center;  margin-bottom: 0px;}";
+cssembed += "#submessage {padding: 10px 20px; font-size: 16px; font-weight: 600; text-align: center;  margin-bottom: 0px;}";
 cssembed += "#subscribeArea {display: block; height: 54%;}";
-cssembed += "#frmSubscribe {display: block; padding: 20px 20px 0 20px; height: 100%}";
+cssembed += "#frmSubscribe {display: block; padding: 0px 20px 0 20px; height: 100%}";
 cssembed += "#name {height: 30%; background-Color: #f5f5f5; border-bottom: 1px solid #808080; border-right: none; border-left: none; border-top: none; width: 100%}";
 cssembed += "#email {height: 30%; background-Color: #f5f5f5; border-bottom: 1px solid #808080; border-right: none; border-left: none; border-top: none; width: 100%}";
 cssembed += "#submit {background-Color: #000000; color: #ffffff; padding-bottom: 10px; width: 100%; height: 25%}";
@@ -84,3 +84,5 @@ function showElementAnimation() {
 // run show animation
 showElementAnimation();
 window.addEventListener("scroll", showElementAnimation);
+
+//window.scrollInMain = () => 1;
