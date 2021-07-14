@@ -67,13 +67,13 @@ function showElementAnimation() {
 
   // main
   var result = 0;
-  if (typeof window.scrollInMain === "function") {
-    result = window.scrollInMain();
+  if (typeof window.scrollInProc === "function") {
+    result = window.scrollInProc();
   }
 
   if (typeof window.hasClosed === "undefined" && result == 1) {
     var elemClientRect = element[0].getBoundingClientRect();
-    var elemY = scrollY + elemClientRect.top;
+    //var elemY = scrollY + elemClientRect.top;
 
     if (scrollY >= 70) {
       element[0].classList.add("is-show");
@@ -85,4 +85,4 @@ function showElementAnimation() {
 showElementAnimation();
 window.addEventListener("scroll", showElementAnimation);
 
-window.scrollInMain = () => 1;
+//window.scrollInProc = () => 1;
